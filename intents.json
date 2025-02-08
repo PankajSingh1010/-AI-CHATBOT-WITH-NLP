@@ -1,0 +1,22 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is CODETECH IT SOLUTION?"],
+         "responses": ["Codtech IT Solutions Private Limited is a certified company recognized by MSME, AICTE, ISO, and trademark registered. The company provides a variety of services, including website and web application development with elegant and user-friendly designs, strategic planning for sustainable growth, and student internship programs aimed at hands-on learning. They also offer tech training to empower the next generation of innovators with the latest technological skills. Codtech IT Solutions is headquartered at Shop No. 4, First Floor, Opposite Naveena School, Plot No. 51, Shiridi Sai Nagar, Hasthinapuram Central, B.N. Reddy Nagar, Hyderabad, Telangana 500079. For more details, you can visit their official website: codtechitsolutions.com."],
+         "context": [""]
+        } 
+    ]}
